@@ -17,6 +17,7 @@ main {
 header {
     width: 100%;
     position: fixed;
+    z-index: 1000%;
 }
 
 header .bar-content .logo {
@@ -71,12 +72,11 @@ header .bar-content ul li  a:hover {
 
 .textos .texto-h1 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#5a2900;
     border-bottom: #5a2900 solid 5px;
     padding-bottom: 10px;
     letter-spacing: 4px;
-    animation-name: animacao;
 
 }
 
@@ -233,10 +233,12 @@ header .bar-content ul li  a:hover {
 }
 
 .third-section {
+    position: ;
     text-align: right;
+    width: 100%;
     padding: 150px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 550px 500px;
     background-color: #9e4724;
     background-image: url(/imagens/bg_detalhe\ 3.png);
     background-position: left bottom;
@@ -252,18 +254,15 @@ header .bar-content ul li  a:hover {
 .third-section h1 {
     font-family:'Josefin Sans', sans-serif;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 55px;  
     
 }
 
 .third-section p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16pt;
-    line-height: 35px;
-    position:relative;
-    width: 700px;
-    left: 680px;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 55px; 
 }
 
 footer {
